@@ -10,7 +10,7 @@ class GetTokenService {
   static Map<String, String>? getHeaders() {
     return {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer ${getToken()}'
+      'Authorization': 'Bearer ${getToken()}' //
     };
   }
 }
