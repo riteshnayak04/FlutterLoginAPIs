@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Registration API',
+        title: 'FlutterLogInAPI',
         theme: ThemeData(
           useMaterial3: true,
           primarySwatch: Colors.blue,
